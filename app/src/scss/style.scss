@@ -137,7 +137,7 @@ $orange: #DD3E18;
 
     .description{
       display: grid;
-      grid-template-rows: 1fr 1fr;
+      grid-template-rows: 1fr;
 
 
       .description_header {
@@ -343,8 +343,6 @@ $orange: #DD3E18;
     grid-column: 2 / 4;
     display: grid;
     grid-template-columns: 1fr minmax(auto, 34rem);
-    max-width: 100%;
-    overflow-x: hidden;
 
     .section-title{
       grid-column: span 2;
@@ -567,6 +565,12 @@ $orange: #DD3E18;
       max-width: 100%;
       .expectation{
         width: 100%;
+
+        .section-text, .section-subtitle{
+          margin-left: 1rem;
+          margin-top: 1rem;
+          margin-bottom: 1rem;
+        }
       }
       .navigation{
         display: block;
@@ -610,6 +614,8 @@ $orange: #DD3E18;
   }
   .contact-wrapper{
     .contact{
+      max-width: 100%;
+      overflow-x: hidden;
       .section-title{
         margin-bottom: 1rem;
       }
