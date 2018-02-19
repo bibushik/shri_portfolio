@@ -1,0 +1,15 @@
+{
+  "name": "shri_portfolio",
+  "version": "0.0.1",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-dest": "^0.2.3",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-sass": "^3.1.0",
+    "gulp-series": "^1.0.2",
+    "gulp-watch": "^5.0.0"
+  }
+}
